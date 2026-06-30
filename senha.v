@@ -27,7 +27,7 @@ endmodule : decodificador
 
 module controlador (
     input clk,
-    input salvar,
+    input set,
     input reset,
     input [6:0] valor,
     output reg [6:0] segd0,
@@ -43,7 +43,7 @@ module controlador (
       segd1 <= 7'b0;
       segd2 <= 7'b0;
       segd3 <= 7'b0;
-    end else if (salvar) begin
+    end else if (set) begin
       segd <= segd + 1'b1;
     end
     begin
@@ -59,7 +59,7 @@ endmodule : controlador
 
 module ponte (
     input clk,
-    input salvar,
+    input set,
     input reset,
     input [3:0] entrada,
     output [6:0] segd0,
@@ -74,7 +74,7 @@ module ponte (
   );
   controlador c (
       clk,
-      salvar,
+      set,
       reset,
       saida,
       segd0,
