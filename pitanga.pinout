@@ -1,0 +1,69 @@
+// (c) 2025 inPlace Design Automation
+// Descrição : arquivo de pinagem contendo o mapeamento do módulo top para
+// a placa S (S-Board).
+
+//  MODULE PORT       BOARD COMPONENT
+clk_3hz       =   clk_3hz;
+btn2          =   btn2;
+btn1          =   btn1;
+btn0          =   btn0;
+
+// Chaves (sw[3:0] = valor hexadecimal a inserir no digito atual)
+sw0           =   sw0;
+sw1           =   sw1;
+sw2           =   sw2;
+sw3           =   sw3;
+sw4           =   sw4;
+sw5           =   sw5;
+sw6           =   sw6;
+sw7           =   sw7;
+sw8           =   sw8;
+sw9           =   sw9;
+
+// LEDs indicadores
+led0          =   led0;
+led1          =   led1;
+led2          =   led2;
+led3          =   led3;
+led4          =   led4;
+led5          =   led5;
+led6          =   led6;
+led7          =   led7;
+led8          =   led8;
+led9          =   led9;
+
+// Display segd0 (digito das unidades)
+segd0[0]      =   segd0.a_on;
+segd0[1]      =   segd0.b_on;
+segd0[2]      =   segd0.c_on;
+segd0[3]      =   segd0.d_on;
+segd0[4]      =   segd0.e_on;
+segd0[5]      =   segd0.f_on;
+segd0[6]      =   segd0.g_on;
+
+// Display segd1
+segd1[0]      =   segd1.a_on;
+segd1[1]      =   segd1.b_on;
+segd1[2]      =   segd1.c_on;
+segd1[3]      =   segd1.d_on;
+segd1[4]      =   segd1.e_on;
+segd1[5]      =   segd1.f_on;
+segd1[6]      =   segd1.g_on;
+
+// Display segd2
+segd2[0]      =   segd2.a_on;
+segd2[1]      =   segd2.b_on;
+segd2[2]      =   segd2.c_on;
+segd2[3]      =   segd2.d_on;
+segd2[4]      =   segd2.e_on;
+segd2[5]      =   segd2.f_on;
+segd2[6]      =   segd2.g_on;
+
+// Display segd3
+segd3[0]      =   segd3.a_on;
+segd3[1]      =   segd3.b_on;
+segd3[2]      =   segd3.c_on;
+segd3[3]      =   segd3.d_on;
+segd3[4]      =   segd3.e_on;
+segd3[5]      =   segd3.f_on;
+segd3[6]      =   segd3.g_on;
